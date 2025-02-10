@@ -7,6 +7,29 @@ html,body
     overflow-x: hidden; 
 }
 
+/* Estilos para dispositivos con un ancho máximo de 768px (tablets y móviles) */
+@media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+    /* Otros estilos específicos para pantallas pequeñas */
+  }
+  
+  /* Estilos para dispositivos con un ancho máximo de 480px (móviles) */
+  @media (max-width: 480px) {
+    body {
+      font-size: 12px;
+    }
+    .container {
+      padding: 5px;
+    }
+    /* Otros estilos específicos para pantallas muy pequeñas */
+  }  
+
 body {
     font-family: 'Courier New', Courier, monospace;
     font-weight: normal;
